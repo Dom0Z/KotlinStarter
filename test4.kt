@@ -8,8 +8,8 @@ fun main() {
     val Arr = arrayOf("Example","Tall", "Short")
     println(Arr.size)
     // kinda missing having an index :(
-    for (Arr in Arr){
-        println(Arr)
+    for (x in Arr){
+        println(x)
     }
     Arr.forEach{ test -> 
         println(test)
